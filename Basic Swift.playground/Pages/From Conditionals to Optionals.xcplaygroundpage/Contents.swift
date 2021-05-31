@@ -84,4 +84,23 @@ countLetters(in: "Hello")
 
 
 
+//*** OPTIONALS ***
+
+func albumReleased(year: Int) -> String? {
+    switch year {
+    case 1998: return "Oceanborn"
+    case 2002: return "Centruy Child"
+    case 2004: return "Once"
+    default: return nil
+    }
+}
+
+let album = albumReleased(year: 2002) ?? "Unknown"
+let album2 = albumReleased(year: 2005) ?? "Unknown"
+
+print("The album is \(album) and \(album2)")
+
+
+
+
 
