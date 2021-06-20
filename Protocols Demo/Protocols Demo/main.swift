@@ -1,3 +1,16 @@
+//SYNTAX
+ 
+ struct MyStructure: FirstProtocol, AnotherProtocol {
+    //struct definition goes here.
+ 
+ }
+ 
+class MyClass: SuperClass, FirstProtocol, AnotherProtocol {
+    //class definition goes here.
+}
+
+
+
 //Creating a Protocol Demo with Birds, Airplanes and fly() method.
 
 //PROTOCOL
